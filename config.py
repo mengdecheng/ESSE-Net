@@ -10,9 +10,9 @@ TRAIN_MASKS_PATH = os.path.join(BASE_PATH, "train_masks")
 VAL_IMAGES_PATH = os.path.join(BASE_PATH, "val_images")
 VAL_MASKS_PATH = os.path.join(BASE_PATH, "val_masks")
 
-# 图像参数/Kvasir-SEG CVC-ColonDB 256*256/CVC-ClinicDB
-IMG_HEIGHT = 256
-IMG_WIDTH = 256
+
+IMG_HEIGHT = 224
+IMG_WIDTH = 224
 # 训练参数 Kvasir-SEG 36
 BATCH_SIZE = 2
 EPOCHS = 200
