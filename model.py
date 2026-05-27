@@ -14,5 +14,5 @@ class LiverSegmentationModel(nn.Module):
         )
 
     def forward(self, x):
-        # 不再动态检查尺寸，直接假定为 256×256
+
         return self.model(x)
