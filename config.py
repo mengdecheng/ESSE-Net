@@ -1,9 +1,8 @@
 import os
 
 # 数据路径配置
-# BASE_PATH = "/home/mdc/桌面/mdc/不服气20241027/newnewLITS"
+
 BASE_PATH = "../Kvasir-SEG"
-# BASE_PATH = "../LIDC_IDRI"
 # BASE_PATH = "../CVC-ClinicDB"
 TRAIN_IMAGES_PATH = os.path.join(BASE_PATH, "train_images")
 TRAIN_MASKS_PATH = os.path.join(BASE_PATH, "train_masks")
